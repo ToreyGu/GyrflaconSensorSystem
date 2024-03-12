@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="LABINFO">
+    <file>../pic/github.jpg</file>
+    <file>../pic/letter.png</file>
+    <file>../pic/lab.png</file>
+    <file>../pic/man.jpg</file>
+    <file>../pic/logo013.png</file>
+    <file>../pic/woman.jpg</file>
+  </qresource>
+</RCC>

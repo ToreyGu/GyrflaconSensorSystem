@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: GU TY, JILIJNUE, LIC=HN0AE-59ZLT-FWU2N-YU52V-DQA6T-Q703A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+F:\SensorSDK\TEST\USER\TEST\IDE\ADC(LDR).uvprojx
+Project File Date:  11/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'ADC(LDR)'
+compiling nrf_assert.c...
+compiling app_error.c...
+compiling app_util_platform.c...
+compiling nrf_strerror.c...
+compiling app_error_handler_keil.c...
+compiling retarget.c...
+compiling nrf_drv_uart.c...
+compiling nrfx_prs.c...
+compiling boards.c...
+compiling app_error_weak.c...
+compiling app_uart_fifo.c...
+compiling nrfx_saadc.c...
+compiling nrfx_uart.c...
+compiling nrfx_uarte.c...
+compiling main.c...
+..\..\..\DRIVER\ADC.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APPLICATION\main.c: 1 warning, 0 errors
+assembling arm_startup_nrf52840.s...
+compiling app_fifo.c...
+compiling app_scheduler.c...
+compiling system_nrf52840.c...
+compiling app_timer.c...
+compiling nrf_atomic.c...
+compiling nrf_memobj.c...
+compiling led.c...
+compiling ADC.c...
+..\..\..\DRIVER\ADC.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\DRIVER\ADC.c: 1 warning, 0 errors
+compiling uart.c...
+..\..\..\DRIVER\uart.c(56): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\..\DRIVER\uart.c: 1 warning, 0 errors
+compiling button.c...
+linking...
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_log_frontend_dequeue (referred from main.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol m_nrf_log_app_logs_data_const (referred from app_error_weak.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_log_frontend_std_0 (referred from app_error_weak.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_log_panic (referred from app_error_weak.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_balloc_alloc (referred from nrf_memobj.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_balloc_free (referred from nrf_memobj.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrf_balloc_init (referred from nrf_memobj.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrfx_gpiote_in_event_enable (referred from button.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrfx_gpiote_in_init (referred from button.o).
+..\..\..\TEMP\ADC(LDR).axf: Error: L6218E: Undefined symbol nrfx_gpiote_init (referred from button.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 10 error messages.
+"..\..\..\TEMP\ADC(LDR).axf" - 10 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.17.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.17.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.17.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ADC_LDR_
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.17.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: NordicSemiconductor::Device:Startup:8.17.0
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+      Include file:  Device\Include\system_nrf52840.h
+      Source file:   Device\Source\system_nrf52840.c
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

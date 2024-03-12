@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>../pic/python.jpg</file>
+    <file>../pic/haidongqing.jpg</file>
+    <file>../pic/qt.jpg</file>
+  </qresource>
+</RCC>

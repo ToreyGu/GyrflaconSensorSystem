@@ -1,0 +1,17 @@
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\components\drivers_nrf\nrf_soc_nosd\nrf_soc.c
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\components\drivers_nrf\nrf_soc_nosd\nrf_soc.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\nrf.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\nrf52840.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
+..\..\..\temp\nrf_soc.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\system_nrf52840.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\nrf52840_bitfields.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\nrf51_to_nrf52840.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\nrf52_to_nrf52840.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\modules\nrfx\mdk\compiler_abstraction.h
+..\..\..\temp\nrf_soc.o: ..\..\..\SDK\components\drivers_nrf\nrf_soc_nosd\nrf_error.h

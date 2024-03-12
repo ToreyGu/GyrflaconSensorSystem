@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: GU TY, JILIJNUE, LIC=HN0AE-59ZLT-FWU2N-YU52V-DQA6T-Q703A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+F:\SensorSDK\TEST\USER\TEST\IDE\TIMER-LED.uvprojx
+Project File Date:  11/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'TIMER-LED'
+assembling arm_startup_nrf52840.s...
+compiling main.c...
+..\APPLICATION\main.c(33): error:  #5: cannot open source input file "app_uart.h": No such file or directory
+  #include "app_uart.h"
+..\APPLICATION\main.c: 0 warnings, 1 error
+compiling system_nrf52840.c...
+compiling app_util_platform.c...
+compiling app_error.c...
+compiling nrf_assert.c...
+compiling uart.c...
+..\..\..\DRIVER\uart.h(9): error:  #5: cannot open source input file "app_uart.h": No such file or directory
+  #include "app_uart.h"
+..\..\..\DRIVER\uart.c: 0 warnings, 1 error
+compiling app_error_handler_keil.c...
+compiling nrf_strerror.c...
+compiling led.c...
+compiling nrfx_timer.c...
+compiling app_error_weak.c...
+compiling boards.c...
+compiling ADC.c...
+..\..\..\DRIVER\ADC.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\DRIVER\ADC.c: 1 warning, 0 errors
+"..\..\..\TEMP\TIMER-LED.axf" - 2 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.17.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.17.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.17.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TIMER-LED
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.17.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: NordicSemiconductor::Device:Startup:8.17.0
+      Source file:   Device\Source\system_nrf52840.c
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+      Include file:  Device\Include\system_nrf52840.h
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

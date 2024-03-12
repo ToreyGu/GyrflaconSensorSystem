@@ -1,0 +1,18 @@
+--cpu=Cortex-M4.fp
+"..\..\..\temp\main.o"
+"..\..\..\temp\boards.o"
+"..\..\..\temp\nrfx_gpiote.o"
+"..\..\..\temp\nrfx_ppi.o"
+"..\..\..\temp\nrf_drv_ppi.o"
+"..\..\..\temp\app_error.o"
+"..\..\..\temp\app_error_handler_keil.o"
+"..\..\..\temp\app_error_weak.o"
+"..\..\..\temp\app_util_platform.o"
+"..\..\..\temp\nrf_assert.o"
+"..\..\..\temp\nrf_strerror.o"
+"..\..\..\temp\arm_startup_nrf52840.o"
+"..\..\..\temp\system_nrf52840.o"
+--library_type=microlib --strict --scatter "..\..\..\TEMP\nrf52832_qfaa.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\nrf52832_qfaa.map" -o ..\..\..\TEMP\nrf52832_qfaa.axf
